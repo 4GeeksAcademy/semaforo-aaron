@@ -9,3 +9,63 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+  margin: 0;
+  background: #222;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.traffic-container {
+  text-align: center;
+}
+
+.traffic-body {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  border-radius: 50%;
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.glow {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
+
+.red {
+  background: red;
+}
+.yellow {
+  background: yellow;
+}
+.green {
+  background: green;
+}
+.purple {
+  background: purple;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #444;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #666;
+}
